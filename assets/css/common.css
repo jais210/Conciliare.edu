@@ -1,0 +1,36 @@
+.italic {
+    font-style: italic;
+}
+
+.dark-letter{
+ color: #333333;
+}
+
+.white-letter{
+    color: #ffffff;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+
+.subtitle{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.inline{
+    display: inline !important;
+}
+
+.bg-white{
+    background-color: white;
+}
+    
+
+

@@ -1,0 +1,251 @@
+/* Colocamos el border-box */
+
+* {
+    box-sizing: border-box !important;
+    font-family: 'Droid Serif', serif;
+  
+}
+
+/* Clases para header, seccion de bienvenida */
+
+header {
+    background-image: url(../img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 750px;
+    top: 0px;
+}
+
+nav{
+    padding: 1.5% 5%;
+}
+
+.navbar-inverse{
+    background-color: #222222 !important;
+    border-color: transparent !important;
+    color: white !important;
+}
+
+.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    color: #fed136 !important;
+    font-size: 2em !important;
+    
+}
+
+.links{
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#bienvenida{
+    height: inherit;
+    text-align: center;
+}
+
+.text1{
+    padding-top: 24%; 
+    font-size: 280%;
+}
+
+.text2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 550%;
+}
+
+.btn {
+    background-color: #fed136 !important;
+    border: none !important;
+    border-radius: 2px !important;
+    padding: 20px 50px !important;
+    font-weight: bold !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em !important;
+}
+
+/* Seccion de servicios */
+#services{
+    height: auto;
+    color: #958f8d;
+}
+
+.icons{
+    background-color:  #fed136;
+    color: white;
+    width: 100px;
+	height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon{
+    padding: auto;
+    padding-top: 20%; 
+}
+
+#services h3{
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+.line{
+    font-size: 1.2em;
+    padding-bottom: 8%;
+
+}
+
+.info{
+    padding-bottom: 10%;
+}
+
+/* Seccion Portfolio */
+
+#portfolio{
+    background-color: #eeeeee;
+    color: #958f8d;
+}
+
+.thumbnail{
+    padding: 0px !important;
+}
+
+
+/* Seccion About */
+
+#about{
+    color: #958f8d;
+}
+
+.ball{
+    background-color:  #fed136;
+    color: white;
+    width: 80px;
+	height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image-circle{
+    border: 7px solid #f1f1f1 ;
+}
+
+#about .row .history{
+    padding-bottom: 10%;
+}
+
+#about img{
+    width: 20%;
+    height: auto;
+    
+}
+
+/* Seccion Team */
+
+#team{
+    background-color: #eeeeee;
+    color: #958f8d;
+}
+
+.social{
+    background-color: #222222;
+    color: white;
+    width: 40px;
+	height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    align-content: center;
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+
+#team .fa{
+    padding: auto;
+    padding-top: 25%;
+}
+
+.photo{
+    border: 7px solid #ffffff;
+
+}
+
+.names{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    
+    margin-bottom: 0px; 
+}
+
+.cargo{
+    padding-bottom: -10px;
+}
+
+.names-description{
+    font-size: 1.2em;
+    padding: 5% 17% 10% 17%;
+}
+
+.integrante{
+    padding-bottom: 10%;
+}
+
+/* Seccion de Marcas */
+
+#marcas{
+    height: auto;
+}
+
+#marcas .row{
+    padding: 5% 2%;
+}
+
+/* Seccion de Contacto */
+
+#contacto{
+    background-color: #222222;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: auto;
+    padding-top: 2%;
+}
+
+.input-datos{
+    padding: 5% !important;
+    margin-bottom: 5%;
+    font-size: 1.5em;
+}
+
+.input-message{
+    padding-top: 5% !important;
+    padding-bottom: 36% !important;
+    
+}
+
+.btn-send{
+    color: white !important;
+    margin-top: 5%;
+}
+
+.mensajes{
+    padding-bottom: 8%;
+}
+
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: #eeeeee ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Kaushan+Script|Montserrat|Roboto+Slab');  
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Droid Serif', serif;
+font-family: 'Roboto Slab', serif; */
