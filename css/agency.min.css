@@ -72,7 +72,7 @@ body {
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     background-color: #1E90FF !important;
     border-color:#1E90FF !important;
-    color: white;
+    color:black;
   }
   
   .btn-primary:active, .btn-primary:focus {
@@ -99,6 +99,7 @@ body {
   
   #mainNav {
     background-color: #212529;
+    
   }
   
   #mainNav .navbar-toggler {
@@ -120,14 +121,15 @@ body {
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #1E90FF;
   }
-  
+  /* barra de menú */
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color:white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #212529; 
   }
   
   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -626,27 +628,27 @@ body {
   
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
-    color: #ced4da;
+    color: #4b4f53;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
   section#contact :-moz-placeholder {
     font-weight: 700;
-    color: #ced4da;
+    color: #5e5e5e;
     /* Firefox 18- */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
   section#contact ::-moz-placeholder {
     font-weight: 700;
-    color: #ced4da;
+    color: #7e7e7e;
     /* Firefox 19+ */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
   section#contact :-ms-input-placeholder {
     font-weight: 700;
-    color: #ced4da;
+    color: #8b8b8b;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
@@ -690,6 +692,6 @@ body {
   }
   
   ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-    background-color:#1E90FF;
+    background-color: #1E90FF;
   }
   
